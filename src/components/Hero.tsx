@@ -13,18 +13,25 @@ export default function Hero() {
                 />
             )}
 
-            <div className="relative w-full max-w-3xl bg-couleur2 px-8 py-8 text-center">
-                <h1 className="text-xl md:text-2xl text-couleur3 mb-6">
-                    Imaginer, structurer et développer l'excellence
+            <div className="relative w-full max-w-2xl bg-couleur2 px-8 py-4 text-center">
+                <h1 className="mb-6 font-sans text-sm font-normal uppercase text-couleur3">
+                    Imaginer, structurer et développer{" "}
+                    <span className="font-cormorant text-sm font-normal italic">
+                        l'excellence
+                    </span>
                 </h1>
 
                 <Link
                     to="/"
-                    className="mt-6 cursor-pointer rounded-sm bg-couleur1 px-4 py-2 text-sm text-couleur2"
+                    className="cursor-pointer font-sans text-xs font-normal uppercase tracking-wider text-couleur3"
                 >
                     Découvrir le groupe
                 </Link>
             </div>
+
+
+
+
         </section>
     );
 }

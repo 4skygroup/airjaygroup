@@ -1,5 +1,6 @@
 import CardGris from "../components/CardGris.tsx";
 import CardDoree from "../components/CardDoree.tsx";
+import ListDorreSemi from "../components/ListDorreSemi.tsx";
 
 export default function Perspectives() {
     return (
@@ -17,8 +18,17 @@ export default function Perspectives() {
                Nous recherchons des startups et des partenaires technologies capables d'apporter une valeur.
                Nous recherchons des startups et des partenaires technologies capables d'apporter une valeur.
                Nous recherchons des startups et des partenaires technologies capables d'apporter une valeur."
-
            />
+
+            <ListDorreSemi
+                title="Partenariats"
+                items={[
+                    { title: "VIVATECH", description: "Investissements stratégiques dans les entreprises à fort potentiel de croissance, avec un accompagnement opérationnel et une vision à 10 ans.",},
+                    { title: "VIVATECH", description: "Investissements stratégiques dans les entreprises à fort potentiel de croissance, avec un accompagnement opérationnel et une vision à 10 ans.",},
+                    { title: "VIVATECH", description: "Investissements stratégiques dans les entreprises à fort potentiel de croissance, avec un accompagnement opérationnel et une vision à 10 ans.",},
+                    { title: "VIVATECH", description: "Investissements stratégiques dans les entreprises à fort potentiel de croissance, avec un accompagnement opérationnel et une vision à 10 ans.",},
+                ]}
+            />
         </>
     );
 }

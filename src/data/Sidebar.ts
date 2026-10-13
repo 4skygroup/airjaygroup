@@ -5,9 +5,9 @@ const ACCUEIL: SidebarSubLink[] = [
     { label: "Manifeste", url: "/accueil/manifeste" },
     { label: "Temps fort", url: "/accueil/temps-forts" },
     { label: "Perspectives", url: "/accueil/perspectives" },
-    { label: "Ecosystème", url: "/" },
-    { label: "Impact", url: "/" },
-    { label: "Marques", url: "/" },
+    { label: "Ecosystème", url: "/accueil/ecosysteme" },
+    { label: "Impact", url: "/accueil/engagements" },
+    { label: "Marques", url: "/accueil/marques" },
     { label: "Actualités", url: "/" },
 ];
 

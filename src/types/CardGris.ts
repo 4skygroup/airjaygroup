@@ -1,5 +1,5 @@
 export interface CardTempsFortProps {
-    titre: string;
+    titre?: string;
     img?: string;
     sousTitre: string;
     desc: string;

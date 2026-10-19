@@ -1,5 +1,5 @@
-import Aboutgroupe from "../components/accueil/Aboutgroupe.tsx";
-import CardGris from "../components/CardGris.tsx";
+import Aboutgroupe from "../../components/accueil/Aboutgroupe.tsx";
+import CardGris from "../../components/CardGris.tsx";
 
 export default function TempsForts() {
     return (

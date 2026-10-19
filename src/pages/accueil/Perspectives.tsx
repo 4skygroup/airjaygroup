@@ -1,6 +1,6 @@
-import CardGris from "../components/CardGris.tsx";
-import CardDoree from "../components/CardDoree.tsx";
-import ListDorreSemi from "../components/ListDorreSemi.tsx";
+import CardGris from "../../components/CardGris.tsx";
+import CardDoree from "../../components/CardDoree.tsx";
+import ListDorreSemi from "../../components/ListDorreSemi.tsx";
 
 export default function Perspectives() {
     return (

@@ -1,5 +1,5 @@
-import MarquesSocietes from "../components/MarquesSocietes.tsx";
-import ChiffresCles from "../components/ChiffresCles.tsx";
+import MarquesSocietes from "../../components/MarquesSocietes.tsx";
+import ChiffresCles from "../../components/ChiffresCles.tsx";
 
 export default function Marques() {
     return (

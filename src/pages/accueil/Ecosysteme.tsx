@@ -1,5 +1,5 @@
-import HeroGris from "../components/HeroGris.tsx";
-import ListDoree from "../components/ListDoree.tsx";
+import HeroGris from "../../components/HeroGris.tsx";
+import ListDoree from "../../components/ListDoree.tsx";
 
 export default function Ecosysteme() {
     return (

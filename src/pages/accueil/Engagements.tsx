@@ -1,6 +1,6 @@
-import HeroGris from "../components/HeroGris.tsx";
-import Accroche from "../components/Accroche.tsx";
-import ListFlexDoree from "../components/ListFlexDoree.tsx";
+import HeroGris from "../../components/HeroGris.tsx";
+import Accroche from "../../components/Accroche.tsx";
+import ListFlexDoree from "../../components/ListFlexDoree.tsx";
 
 export default function Engagements() {
     return (

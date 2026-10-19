@@ -1,5 +1,5 @@
-import HeroGris from "../components/HeroGris.tsx";
-import Accroche from "../components/Accroche.tsx";
+import HeroGris from "../../components/HeroGris.tsx";
+import Accroche from "../../components/Accroche.tsx";
 
 export default function Manifeste() {
     return (

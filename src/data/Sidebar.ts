@@ -8,12 +8,21 @@ const ACCUEIL: SidebarSubLink[] = [
     { label: "Ecosystème", url: "/accueil/ecosysteme" },
     { label: "Impact", url: "/accueil/engagements" },
     { label: "Marques", url: "/accueil/marques" },
-    { label: "Actualités", url: "/" },
+    { label: "Actualités", url: "/accueil/actualites" },
+];
+
+const GROUPE: SidebarSubLink[] = [
+    { label: "Vision", url: "/groupe/vision" },
+    { label: "Nos valeurs", url: "/groupe/valeurs" },
+    { label: "Engagements", url: "/groupe/engagement" },
+    { label: "Prévision", url: "/groupe/prevision" },
+    { label: "Histoire", url: "/groupe/histoire" },
+    { label: "Modèle AIRJAY", url: "/groupe/modele" },
 ];
 
 export const SIDEBAR_LINKS: SidebarLink[] = [
     { label: "Accueil", url: "/", subLinks: ACCUEIL },
-    { label: "Groupe", url: "/groupe", subLinks: [] },
+    { label: "Groupe", url: "/groupe", subLinks: GROUPE },
     { label: "Activités", url: "/activites", subLinks: [] },
     { label: "Marque & Sociétés", url: "/marques-societes", subLinks: [] },
     { label: "Engagements", url: "/engagements", subLinks: [] },

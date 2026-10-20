@@ -13,6 +13,7 @@ export default function Marques() {
             />
 
             <ChiffresCles
+                title="Chiffres clés"
                 chiffres={[
                     { valeur: "230+", label: "Années d'Expérience" },
                     { valeur: "3000", label: "Collaborateurs" },

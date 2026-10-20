@@ -1,14 +1,15 @@
 import type {ChiffreCleProps} from "../types/ChiffreCle.ts";
 
 type ChiffresClesProps = {
+    title?: string;
     chiffres: ChiffreCleProps[];
 };
 
-export default function ChiffresCles({ chiffres }: ChiffresClesProps) {
+export default function ChiffresCles({ title, chiffres }: ChiffresClesProps) {
     return (
         <section className="w-full max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
             <h2 className="text-2xl md:text-3xl text-couleur3 text-center mb-8 md:mb-12">
-                Chiffres clés
+                {title}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {chiffres.map((chiffre) => (

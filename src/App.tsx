@@ -15,6 +15,11 @@ import Engagement from "./components/Engagement.tsx";
 import Histoire from "./pages/groupe/Histoire.tsx";
 import Modele from "./pages/groupe/Modele.tsx";
 import Prevision from "./pages/groupe/Prevision.tsx";
+import Talents from "./pages/groupe/Talents.tsx";
+import Gouvernance from "./components/Gouvernance.tsx";
+import MembreDetail from "./components/Membredetail.tsx";
+import ChiffresImple from "./pages/groupe/ChiffresImple.tsx";
+import ExcellenceOperationnelle from "./pages/activite/ExcellenceOperationnelle.tsx";
 
 export default function App() {
   return (
@@ -31,13 +36,19 @@ export default function App() {
             <Route path="/accueil/actualites" element={<Actualites />} />
 
             <Route path="/groupe/vision" element={<Vision />} />
-
             <Route path="/groupe/valeurs" element={<Valeurs />} />
             <Route path="/groupe/engagement" element={<Engagement />} />
             <Route path="/groupe/prevision" element={<Prevision />} />
             <Route path="/groupe/histoire" element={<Histoire />} />
             <Route path="/groupe/modele" element={<Modele />} />
 
+            <Route path="/groupe/talents" element={<Talents />} />
+            <Route path="/groupe/gouvernance" element={<Gouvernance />} />
+            <Route path="/groupe/gouvernance/:id" element={<MembreDetail />} />
+            <Route path="/groupe/chiffres-implementation" element={<ChiffresImple />} />
+            <Route path="/groupe/actualites" element={<Actualites />} />
+
+            <Route path="/activites/excellence-operationnelle" element={<ExcellenceOperationnelle />} />
         </Routes>
         <Footer />
       </>

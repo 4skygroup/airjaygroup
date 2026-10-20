@@ -26,6 +26,8 @@ const GROUPE: SidebarSubLink[] = [
 
 const ACTIVITES: SidebarSubLink[] = [
     { label: "Excellence opérationnelle", url: "/activites/excellence-operationnelle" },
+    { label: "Secteurs", url: "/activites/secteurs" },
+    { label: "Les projets", url: "/activites/projects" },
 
 ];
 

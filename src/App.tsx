@@ -20,6 +20,8 @@ import Gouvernance from "./components/Gouvernance.tsx";
 import MembreDetail from "./components/Membredetail.tsx";
 import ChiffresImple from "./pages/groupe/ChiffresImple.tsx";
 import ExcellenceOperationnelle from "./pages/activite/ExcellenceOperationnelle.tsx";
+import Secteurs from "./pages/activite/Secteurs.tsx";
+import Projects from "./pages/activite/Projects.tsx";
 
 export default function App() {
   return (
@@ -49,6 +51,9 @@ export default function App() {
             <Route path="/groupe/actualites" element={<Actualites />} />
 
             <Route path="/activites/excellence-operationnelle" element={<ExcellenceOperationnelle />} />
+            <Route path="/activites/secteurs" element={<Secteurs />} />
+            <Route path="/activites/projects" element={<Projects />} />
+
         </Routes>
         <Footer />
       </>

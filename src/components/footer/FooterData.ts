@@ -17,7 +17,7 @@ export const COLUMNS: FooterColumn[] = [
         links: [
             { label: "Histoire", path: "/histoire" },
             { label: "Gouvernance", path: "/gouvernance" },
-            { label: "Engagements", path: "/engagements" },
+            { label: "EngagementsAccueil", path: "/engagements" },
             { label: "Actualités", path: "/actualites" },
         ],
     },

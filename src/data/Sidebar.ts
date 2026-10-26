@@ -28,7 +28,8 @@ const ACTIVITES: SidebarSubLink[] = [
     { label: "Excellence opérationnelle", url: "/activites/excellence-operationnelle" },
     { label: "Secteurs", url: "/activites/secteurs" },
     { label: "Les projets", url: "/activites/projects" },
-
+    { label: "Entités rattachées", url: "/activites/entites-rattachees" },
+    { label: "Actualités", url: "/activites/actualites" },
 ];
 
 export const SIDEBAR_LINKS: SidebarLink[] = [

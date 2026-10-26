@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { membres, titreCategorie, type Categorie } from "../data/Membres.tsx";
+import { comiteExecutif, conseilAdministration, titreCategorie, type Categorie } from "../data/Membres.tsx";
 import MembreCard from "../components/MembreCard";
 
 const onglets: Categorie[] = ["comite", "conseil"];
 
 export default function Gouvernance() {
     const [categorie, setCategorie] = useState<Categorie>("conseil");
-    const liste = membres.filter((m) => m.categorie === categorie);
+    const liste = categorie === "comite" ? comiteExecutif : conseilAdministration;
 
     return (
         <main className="bg-couleur2 px-6 py-12 md:px-16">

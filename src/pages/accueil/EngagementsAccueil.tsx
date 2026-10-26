@@ -2,11 +2,11 @@ import HeroGris from "../../components/HeroGris.tsx";
 import Accroche from "../../components/Accroche.tsx";
 import ListFlexDoree from "../../components/ListFlexDoree.tsx";
 
-export default function Engagements() {
+export default function EngagementsAccueil() {
     return (
         <>
             <HeroGris
-                accroche="Nos Engagements"
+                accroche="Nos EngagementsAccueil"
                 desc="Des actes vérifiables, une responsabilité partagée. Chez AIRJAY GROUP, l'engagement n'est pas une promesse abstraite mais une donnée auditée, consolidée par notre héritage institutionnel."
             />
             <Accroche
@@ -27,15 +27,30 @@ export default function Engagements() {
                     },
                     {
                         titre: "Impact & territoires",
-                        points: ["12k Heures de formation par an", "35% Taux de mobilité interne"],
+                        points: [
+                            "12k Heures de formation par an",
+                            "35% Taux de mobilité interne",
+                            "Accès prioritaire aux postes de direction pour les collaborateurs à haut potentiel via mentorat.",
+                            "Financement intégral des certifications métiers pour 100% des équipes opérationnelles.",
+                        ],
                     },
                     {
                         titre: "Éthique & gouvernance",
-                        points: ["12k Heures de formation par an", "35% Taux de mobilité interne"],
+                        points: [
+                            "12k Heures de formation par an",
+                            "35% Taux de mobilité interne",
+                            "Accès prioritaire aux postes de direction pour les collaborateurs à haut potentiel via mentorat.",
+                            "Financement intégral des certifications métiers pour 100% des équipes opérationnelles.",
+                        ],
                     },
                     {
                         titre: "Environnement",
-                        points: ["12k Heures de formation par an", "35% Taux de mobilité interne"],
+                        points: [
+                            "12k Heures de formation par an",
+                            "35% Taux de mobilité interne",
+                            "Accès prioritaire aux postes de direction pour les collaborateurs à haut potentiel via mentorat.",
+                            "Financement intégral des certifications métiers pour 100% des équipes opérationnelles.",
+                        ],
                     },
                 ]}
             />

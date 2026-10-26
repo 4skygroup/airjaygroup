@@ -25,15 +25,15 @@ export default function MembreDetail() {
             </section>
 
             <section className="mx-auto mt-8 grid max-w-4xl items-center gap-8 bg-couleur1 p-8 md:grid-cols-3">
-                {/* Image fournie : on l'affiche, sinon on affiche le bloc doré */}
+                {/* Image fournie : on l'affiche, sinon on affiche le bord doré */}
                 {membre.image ? (
                     <img
                         src={membre.image}
                         alt={membre.nom}
-                        className="w-full aspect-square object-cover"
+                        className="w-full aspect-3/4 object-contain"
                     />
                 ) : (
-                    <div className="w-full aspect-square border border-couleur4 bg-couleur4" />
+                    <div className="w-full aspect-3/4 border border-couleur4 bg-couleur4" />
                 )}
 
                 <div className="md:col-span-2 flex flex-col gap-4">

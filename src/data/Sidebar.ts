@@ -32,13 +32,19 @@ const ACTIVITES: SidebarSubLink[] = [
     { label: "Actualités", url: "/activites/actualites" },
 ];
 
+const ACTUALITES: SidebarSubLink[] = [
+    { label: "Actualités", url: "/actualites/actualités-liees" },
+    { label: "Investisseurs", url: "/actualites/investisseurs" },
+
+];
+
 export const SIDEBAR_LINKS: SidebarLink[] = [
     { label: "Accueil", url: "/", subLinks: ACCUEIL },
     { label: "Groupe", url: "/groupe", subLinks: GROUPE },
     { label: "Activités", url: "/activites", subLinks: ACTIVITES },
     { label: "Marque & Sociétés", url: "/marques-societes", subLinks: [] },
     { label: "Engagements", url: "/engagements", subLinks: [] },
-    { label: "Actualités", url: "/actualites", subLinks: [] },
+    { label: "Actualités", url: "/actualites", subLinks: ACTUALITES},
     { label: "Carrières", url: "/carrieres", subLinks: [] },
 ];
 

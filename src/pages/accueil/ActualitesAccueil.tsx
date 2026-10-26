@@ -1,43 +1,14 @@
-import ActualitesComp from "../../components/ActualitesComp.tsx";
+import {actualitesAirjaygroup} from "../../data/Actualites.ts";
+import ActualitesListe from "../../components/ActualitesListe.tsx";
 
 
 export default function ActualitesAccueil() {
     return (
         <>
-            <ActualitesComp
-                titre="Actualités"
-                actualites={[
-                    {
-                        id: 1,
-                        date: "25.06.2026",
-                        duree: "4 mins",
-                        titre: "TEST1",
-                        lien: "/actualites/1",
-                        image: "/images/solarnexus.jpg",
-                    },
-                    {
-                        id: 2,
-                        date: "25.06.2026",
-                        duree: "4 mins",
-                        titre: "AIRJAY annonce une prise de participation dans SolarNexus",
-                        lien: "/actualites/2",
-                    },
-                    {
-                        id: 3,
-                        date: "25.06.2026",
-                        duree: "4 mins",
-                        titre: "AIRJAY annonce une prise de participation dans SolarNexus",
-                        lien: "/actualites/3",
-                    },
-                    {
-                        id: 4,
-                        date: "25.06.2026",
-                        duree: "4 mins",
-                        titre: "AIRJAY annonce une prise de participation dans SolarNexus",
-                        lien: "/actualites/4",
-                    },
-                ]}
-            />
+            <section className="bg-couleur2 px-6 py-16">
+                <h2 className="mb-12 text-center text-3xl text-couleur3">Actualités du groupe</h2>
+                <ActualitesListe actualites={actualitesAirjaygroup} />
+            </section>
         </>
     );
 }

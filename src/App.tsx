@@ -25,6 +25,9 @@ import EntitesRattachees from "./pages/activite/EntitesRattachees.tsx";
 import ActualitesAccueil from "./pages/accueil/ActualitesAccueil.tsx";
 import ActualitesActi from "./pages/activite/ActualitesActi.tsx";
 import ActualitesGroupe from "./pages/groupe/ActualitesGroupe.tsx";
+import ActualitesComp from "./components/ActualitesComp.tsx";
+import {categoriesActualites} from "./data/Actualites.ts";
+import Investisseurs from "./pages/actualites/Investisseurs.tsx";
 
 export default function App() {
   return (
@@ -63,6 +66,9 @@ export default function App() {
             <Route path="/activites/actualites" element={<ActualitesActi/>} />
 
             <Route path="/engagements" element={<EngagementsAccueil/>} />
+
+            <Route path="/actualites/actualités-liees" element={<ActualitesComp categories={categoriesActualites}/>} />
+            <Route path="/actualites/investisseurs" element={<Investisseurs />} />
 
         </Routes>
         <Footer />

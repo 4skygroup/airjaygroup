@@ -1,4 +1,4 @@
 export interface AccrocheProps {
     accroche: string;
-    desc: string;
+    desc?: string;
 }

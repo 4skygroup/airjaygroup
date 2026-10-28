@@ -27,7 +27,7 @@ export const COLUMNS: FooterColumn[] = [
             { label: "Accueil", path: "/presse" },
             { label: "Contacts Presse", path: "/presse/contacts" },
             { label: "Communiqués de presse", path: "/presse/communiques" },
-            { label: "Documents", path: "/presse/documents" },
+            { label: "DocumentsComp", path: "/presse/documents" },
         ],
     },
     {

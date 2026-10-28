@@ -28,6 +28,19 @@ import ActualitesGroupe from "./pages/groupe/ActualitesGroupe.tsx";
 import ActualitesComp from "./components/ActualitesComp.tsx";
 import {categoriesActualites} from "./data/Actualites.ts";
 import Investisseurs from "./pages/actualites/Investisseurs.tsx";
+import Presse from "./pages/actualites/Presse.tsx";
+import Documents from "./pages/actualites/Documents.tsx";
+import Questions from "./pages/actualites/Questions.tsx";
+import MarquesSocietesPage from "./pages/marquessociete/MarquesSocietesPage.tsx";
+import Excellence from "./pages/carriere/Excellence.tsx";
+import Culture from "./pages/carriere/Culture.tsx";
+import Metiers from "./pages/carriere/Metiers.tsx";
+import MetiersDetails from "./pages/carriere/MetiersDetails.tsx";
+import AnnuaireOffres from "./pages/carriere/Annuaireoffres.tsx";
+import Projection from "./pages/innovation/Projection.tsx";
+import Ambitions from "./pages/innovation/Ambitions.tsx";
+import Recherches from "./pages/innovation/Recherches.tsx";
+import Partenariats from "./pages/innovation/Partenariats.tsx";
 
 export default function App() {
   return (
@@ -59,16 +72,35 @@ export default function App() {
             <Route path="/activites/excellence-operationnelle" element={<ExcellenceOperationnelle />} />
             <Route path="/activites/secteurs" element={<Secteurs />} />
             <Route path="/activites/projects" element={<Projects />} />
-
-
-
             <Route path="/activites/entites-rattachees" element={<EntitesRattachees />} />
             <Route path="/activites/actualites" element={<ActualitesActi/>} />
 
             <Route path="/engagements" element={<EngagementsAccueil/>} />
 
+            <Route path="/marques-societes" element={<MarquesSocietesPage/>} />
+
             <Route path="/actualites/actualités-liees" element={<ActualitesComp categories={categoriesActualites}/>} />
             <Route path="/actualites/investisseurs" element={<Investisseurs />} />
+
+
+            <Route path="/actualites/presse" element={<Presse />} />
+            <Route path="/actualites/documents" element={<Documents />} />
+            <Route path="/actualites/questions" element={<Questions />} />
+
+
+            <Route path="/carrieres/excellence" element={<Excellence />} />
+            <Route path="/carrieres/culture" element={<Culture />} />
+            <Route path="/carrieres/metiers" element={<Metiers />} />
+            <Route path="/carrieres/metiers-details" element={<MetiersDetails />} />
+            <Route path="/carrieres/offres" element={<AnnuaireOffres />} />
+
+            <Route path="/innovations/projections" element={<Projection />} />
+            <Route path="/innovations/ambitions" element={<Ambitions />} />
+
+            <Route path="/innovations/recherches" element={<Recherches />} />
+            <Route path="/innovations/partenariats" element={<Partenariats />} />
+
+
 
         </Routes>
         <Footer />

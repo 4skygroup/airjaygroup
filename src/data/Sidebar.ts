@@ -35,7 +35,24 @@ const ACTIVITES: SidebarSubLink[] = [
 const ACTUALITES: SidebarSubLink[] = [
     { label: "Actualités", url: "/actualites/actualités-liees" },
     { label: "Investisseurs", url: "/actualites/investisseurs" },
+    { label: "Presse", url: "/actualites/presse" },
+    { label: "Documents", url: "/actualites/documents" },
+    { label: "Questions fréquentes", url: "/actualites/questions" },
+];
 
+const INNOVATIONS: SidebarSubLink[] = [
+    { label: "Projections", url: "/innovations/projections" },
+    { label: "Nos ambitions", url: "/innovations/ambitions" },
+    { label: "Nos recherches", url: "/innovations/recherches" },
+    { label: "Nos Partenariats", url: "/innovations/partenariats" },
+];
+
+const CARRIERE: SidebarSubLink[] = [
+    { label: "Excellence", url: "/carrieres/excellence" },
+    { label: "Culture", url: "/carrieres/culture" },
+    { label: "Nos Métiers", url: "/carrieres/metiers" },
+    { label: "Découvrez nos métiers en profondeur", url: "/carrieres/metiers-details" },
+    { label: "Annuaire des Offres", url: "/carrieres/offres" },
 ];
 
 export const SIDEBAR_LINKS: SidebarLink[] = [
@@ -45,7 +62,8 @@ export const SIDEBAR_LINKS: SidebarLink[] = [
     { label: "Marque & Sociétés", url: "/marques-societes", subLinks: [] },
     { label: "Engagements", url: "/engagements", subLinks: [] },
     { label: "Actualités", url: "/actualites", subLinks: ACTUALITES},
-    { label: "Carrières", url: "/carrieres", subLinks: [] },
+    { label: "Innovations", url: "/innovations", subLinks: INNOVATIONS},
+    { label: "Carrières", url: "/carrieres", subLinks: CARRIERE },
 ];
 
 export const SIDEBAR_SOCIAL: SidebarSocialLink[] = [

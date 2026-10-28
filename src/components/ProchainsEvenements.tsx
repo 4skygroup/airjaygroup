@@ -16,19 +16,21 @@ export default function ProchainsEvenements({
             <h2 className="mb-12 text-center text-xl text-couleur3">{titre}</h2>
 
             <div className="mx-auto flex max-w-4xl flex-col gap-10">
-                {evenements.map((evenement) => {
-                    const [jour, mois, annee] = evenement.date.split(".");
+                {evenements.map((evenement, index) => {
+                    const [jour, mois, annee] = evenement.date?.split(".") ?? [];
 
                     return (
                         <article
-                            key={`${evenement.titre}-${evenement.date}`}
+                            key={`${evenement.titre}-${evenement.date ?? index}`}
                             className="flex items-center gap-8 text-couleur3"
                         >
-                            <div className="flex w-12 flex-col items-center text-center">
-                                <span className="text-xs">{MOIS[Number(mois) - 1]}</span>
-                                <span className="font-display text-2xl">{jour}</span>
-                                <span className="text-xs text-couleur1">{annee}</span>
-                            </div>
+                            {evenement.date && (
+                                <div className="flex w-12 flex-col items-center text-center">
+                                    <span className="text-xs">{MOIS[Number(mois) - 1]}</span>
+                                    <span className="font-display text-2xl">{jour}</span>
+                                    <span className="text-xs text-couleur1">{annee}</span>
+                                </div>
+                            )}
 
                             <div className="flex flex-col gap-2">
                                 <h3 className="text-xl">{evenement.titre}</h3>
